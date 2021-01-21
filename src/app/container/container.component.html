@@ -1,0 +1,8 @@
+<ng-template #loading>I am loading...</ng-template>
+
+<ng-container *ngIf="(myData$ | async) as myData else loading">
+  <div class="container">
+    evidence of update in parent: {{ myData.property1 }}
+    <app-child [incomingData]="myData" (formWasSubmitted)="onDataUpdate($event)"></app-child>
+  </div>
+</ng-container>
