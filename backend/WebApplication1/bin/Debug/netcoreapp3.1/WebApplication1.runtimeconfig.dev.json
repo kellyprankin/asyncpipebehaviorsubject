@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Simulacrum\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Simulacrum\\.nuget\\packages"
+    ]
+  }
+}
